@@ -36,8 +36,8 @@ export default function CodeEditor() {
         setResult(data.output);
         setError(null);
       }
-    } catch (err) {
-      setError('An unexpected error occurred.');
+    } catch (err: any) {
+      setError('An unexpected error occurred.' + err,);
     }
   }, 500), []);
 
