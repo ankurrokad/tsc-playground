@@ -1,0 +1,55 @@
+// styles/CodeEditor.module.scss
+.container {
+    display: flex;
+    height: 100vh; /* Utilize full screen height */
+    background-color: #1e1e1e; /* Dark theme background */
+    color: #dcdcdc; /* Light grey text color */
+  }
+  
+  .editor, .output {
+    flex: 1; /* Make both sections take equal space */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .editor {
+    padding: 1rem;
+    border-right: 1px solid #2d2d2d; /* Subtle divider */
+    height: 100%;
+  }
+  
+  .output {
+    padding: 1rem;
+    background-color: #2d2d2d; /* Darker background for output */
+    height: 100%;
+    overflow-y: auto; /* Scrollable if the output is long */
+  }
+  
+  .outputPre {
+    font-family: monospace;
+    color: #dcdcdc; /* Light grey for code/output */
+  }
+  
+  .errorPre {
+    font-family: monospace;
+    color: #ff5555; /* Red for error messages */
+  }
+  
+  .h1 {
+    color: #ffffff; /* White header */
+  }
+  
+  .runButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+  

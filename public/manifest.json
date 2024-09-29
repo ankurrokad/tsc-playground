@@ -1,0 +1,21 @@
+{
+    "name": "TypeScript Playground",
+    "short_name": "TSPlay",
+    "description": "A TypeScript playground for quick code execution.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1e1e1e",
+    "theme_color": "#0070f3",
+    "icons": [
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
